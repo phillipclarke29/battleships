@@ -9,7 +9,7 @@ describe Boat do
   end
 
   it 'should have a position' do
-    expect(boat.position.class).to eql(Array)
+    expect(boat.boat_position.class).to eql(Array)
   end
 
 
