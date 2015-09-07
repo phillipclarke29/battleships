@@ -1,9 +1,9 @@
 class Boat
 
-  attr_reader :position
+  attr_accessor :boat_position
 
   def initialize(x,y)
-    @position =[x,y]
+    @boat_position = [x,y]
   end
 
 
