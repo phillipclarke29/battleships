@@ -1,5 +1,3 @@
-require 'boat'
-
 class Missile
 
   attr_reader :missile_position
