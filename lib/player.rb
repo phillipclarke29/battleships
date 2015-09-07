@@ -2,9 +2,14 @@
 
 class Player
 
-def boats
-@boats = []
-end
+  attr_accessor :boats
+  def initialize
+    @boats =[]
+  end
+
+  def add_boat(boat)
+    @boats << boat
+  end
 
 
 
